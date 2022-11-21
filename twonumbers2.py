@@ -4,9 +4,10 @@ def add_without_plus_operator(a, b):
         a = a ^ b
         b = data << 1
     return a
-print(add_without_plus_operator(2, 10))
-print(add_without_plus_operator(-20, 10))
-print(add_without_plus_operator(-10, -20))
+Num1 = int(input("Enter num1: "))
+Num2 = int(input("Enter num2: "))
+result = add_without_plus_operator(Num1,Num2)
+print("Addition Of Two Numbers: ",result)
 '''
 b  != 0(T)
    data=0010 &1010= 0010
